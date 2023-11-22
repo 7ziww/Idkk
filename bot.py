@@ -30,10 +30,7 @@ async def on_message(message):
         with open('quirks.png', 'rb') as f:
             picture = discord.File(f)
             await message.channel.send(file=picture)
-
-    if message.content.startswith('vip'):
-        await message.channel.send('https://www.roblox.com/share?code=2609359802715345bef34d5107d8116c&type=Server')
     
 
 
-client.run('ODcwNTE2MDc1NTM4ODM3NjA0.G7oUSM.6m5dnpJjXmy-jpV54FZeOGpAFIfsoTRwvvERuw')
+client.run('')
