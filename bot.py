@@ -2,6 +2,7 @@ import numpy as np
 import pyautogui
 import discord
 import os
+import tk
 
 
 intents = discord.Intents.default()
